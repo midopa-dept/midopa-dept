@@ -1,6 +1,6 @@
 # Junha Kang
 
-Independent researcher. I work on how coding agents can take on long-running work with clear limits: what they can reach, when work counts as done, and what evidence is left behind.
+Security practitioner and independent researcher. I work on how coding agents can take on long-running work with clear limits: what they can reach, when work counts as done, and what evidence is left behind.
 
 ## Interests
 
@@ -16,6 +16,13 @@ Independent researcher. I work on how coding agents can take on long-running wor
 | --- | --- |
 | [cairn-harness](https://github.com/midopa-dept/cairn-harness) | A small declarative contract that Claude Code and Codex follow for authority, task state, verification, acceptance, and recovery. Release candidate (`1.0.0-candidate.5`), observed on a small cross-runtime fixture; the design notes keep the review history behind it. |
 | [agent-workspace-hardening](https://github.com/midopa-dept/agent-workspace-hardening) | Managed settings and a git-guard hook that narrow what coding agents can reach on a personal Mac, with test findings on where permission rules did not behave as expected. Tested on specific tool versions. |
+
+### Running models yourself
+
+| Repository | What it shows |
+| --- | --- |
+| [stewart](https://github.com/midopa-dept/stewart) | A small agent runner for models you host yourself, over any OpenAI-compatible endpoint (llama.cpp, vLLM). Work stays inside one folder; approvals, hooks, memory, and checks before it reports a task as done. |
+| [stewart-cloud](https://github.com/midopa-dept/stewart-cloud) | Tooling to rent a GPU on Vast.ai, serve a model with vLLM reachable only from your own Tailscale network, convert models to 4-bit, and connect the result to stewart. |
 
 ### Learning material
 
