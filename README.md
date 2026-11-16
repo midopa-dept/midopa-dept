@@ -20,6 +20,13 @@
 
 짝 도구 [stewart-cloud](https://github.com/midopa-dept/stewart-cloud)(v0.2.1): Vast.ai 에서 빌린 GPU 에 vLLM 으로 열린 모델을 띄우고, 내 Tailscale 망에서만 닿게 해 stewart 에 붙입니다.
 
+## Stewart로 무엇을 할 수 있나?
+
+아래의 레포지토리를 Stewart와 함께 개발했습니다.
+
+[cassandra](https://github.com/midopa-dept/cassandra): 작은 LLM 모델(27B 급)을 이용하여 웹 취약점을 자동으로 스캔하고 exploit을 제작할 수 있는 도구
+[nightjar](https://github.com/midopa-dept/nightjar): 교육용 C2 서버 및 Beacon 악성코드
+
 ## 최근 관심사
 
 - 작은·로컬 모델을 위한 실행기 설계: 모델이 약한 곳을 실행기 쪽 장치로 받치기
