@@ -2,7 +2,7 @@
 
 # Junha Kang
 
-보안 실무자이자 독립 연구자입니다. 직접 띄운 모델로 도는 에이전트 실행기를 만들고, 그 실행기의 성능을 어떻게 측정해야 하는지 살펴보았습니다.
+정보보안 실무자, 교육자이자 독립 연구자입니다. 아래는 레포지토리별 설명입니다.
 
 ## stewart
 
@@ -25,7 +25,7 @@
 아래의 레포지토리를 Stewart와 함께 개발했습니다.
 
 [cassandra](https://github.com/midopa-dept/cassandra): 작은 LLM 모델(27B 급)을 이용하여 웹 취약점을 자동으로 스캔하고 exploit을 제작할 수 있는 도구
-[nightjar](https://github.com/midopa-dept/nightjar): 교육용 C2 서버 및 Beacon 악성코드
+[nightjar](https://github.com/midopa-dept/nightjar): 실전처럼 작동하는 Windows 10 피싱 C2(교육용)
 
 ## 최근 관심사
 
