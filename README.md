@@ -25,6 +25,7 @@
 아래의 레포지토리를 Stewart와 함께 개발했습니다.
 
 [cassandra](https://github.com/midopa-dept/cassandra): 작은 LLM 모델(27B 급)을 이용하여 웹 취약점을 자동으로 스캔하고 exploit을 제작할 수 있는 도구
+
 [nightjar](https://github.com/midopa-dept/nightjar): 실전처럼 작동하는 Windows 10 피싱 C2(교육용)
 
 ## 최근 관심사
