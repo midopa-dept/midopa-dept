@@ -1,8 +1,8 @@
 [한국어](README.md) · English
 
-# Junha Kang
+# midopa-dept
 
-Security practitioner and independent researcher. I build an agent runner for models you host yourself, and study how such runners should be measured.
+Security practitioner, educator, and independent researcher. I build an agent runner for models you host yourself, and study how such runners should be measured.
 
 ## stewart
 
@@ -19,6 +19,13 @@ Security practitioner and independent researcher. I build an agent runner for mo
 [README](https://github.com/midopa-dept/stewart/blob/main/README.en.md) · [Demo screens](https://github.com/midopa-dept/stewart/blob/main/docs/demo.en.md) · [Research notes (Korean)](https://github.com/midopa-dept/stewart/blob/main/docs/research-notes.md)
 
 Companion tool [stewart-cloud](https://github.com/midopa-dept/stewart-cloud) (v0.2.1): rent a GPU on Vast.ai, serve an open model with vLLM, reach it only from your own Tailscale network, and connect it to stewart.
+
+## What I build with stewart
+
+Built alongside stewart. All of these are **for authorized environments only** — use them for security research, defensive training and education, on systems you own or have explicit written permission to test. Use against any other target is prohibited.
+
+- [cassandra](https://github.com/midopa-dept/cassandra): a research tool that uses a small LLM (~27B) to scan authorized targets for web vulnerabilities and draft proof-of-concept exploits.
+- [nightjar](https://github.com/midopa-dept/nightjar): a Windows 10 C2 practice environment built for phishing-response training and defensive education (controlled training environments only).
 
 ## Current interests
 
@@ -37,5 +44,3 @@ Companion tool [stewart-cloud](https://github.com/midopa-dept/stewart-cloud) (v0
 - [ai-knowledge-atlas](https://github.com/midopa-dept/ai-knowledge-atlas): knowledge graph for a Korean non-linear AI textbook (504 concepts, 817 learning objectives) with validators, plus its first chapter (Attention and Transformer) as a review candidate.
 
 Most documents are written in Korean. Every repository above except local-ai-textbook has an English README.
-
-ORCID: https://orcid.org/0009-0006-9062-8353
