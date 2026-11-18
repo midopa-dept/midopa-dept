@@ -1,6 +1,6 @@
 한국어 · [English](README.en.md)
 
-# Junha Kang
+# midopa-dept
 
 정보보안 실무자, 교육자이자 독립 연구자입니다. 아래는 레포지토리별 설명입니다.
 
@@ -20,13 +20,12 @@
 
 짝 도구 [stewart-cloud](https://github.com/midopa-dept/stewart-cloud)(v0.2.1): Vast.ai 에서 빌린 GPU 에 vLLM 으로 열린 모델을 띄우고, 내 Tailscale 망에서만 닿게 해 stewart 에 붙입니다.
 
-## Stewart로 무엇을 할 수 있나?
+## stewart로 무엇을 할 수 있나
 
-아래의 레포지토리를 Stewart와 함께 개발했습니다.
+아래 저장소를 stewart 와 함께 개발했습니다. 모두 **인가된 환경 전용**입니다 — 본인이 소유했거나 명시적인 서면 허가를 받은 시스템에서, 보안 연구·방어 훈련·교육 목적으로만 씁니다. 허가 없는 대상에 사용하는 것을 금지합니다.
 
-[cassandra](https://github.com/midopa-dept/cassandra): 작은 LLM 모델(27B 급)을 이용하여 웹 취약점을 자동으로 스캔하고 exploit을 제작할 수 있는 도구
-
-[nightjar](https://github.com/midopa-dept/nightjar): 실전처럼 작동하는 Windows 10 피싱 C2(교육용)
+- [cassandra](https://github.com/midopa-dept/cassandra): 작은 LLM(27B 급)으로 인가된 대상의 웹 취약점을 자동으로 스캔하고 PoC(exploit)를 만드는 연구용 도구
+- [nightjar](https://github.com/midopa-dept/nightjar): 피싱 대응 훈련·방어 교육을 위한 Windows 10 C2 실습 환경(통제된 교육 환경 전용)
 
 ## 최근 관심사
 
@@ -45,5 +44,3 @@
 - [ai-knowledge-atlas](https://github.com/midopa-dept/ai-knowledge-atlas): 한국어 비선형 AI 교재의 지식 그래프(개념 504개, 학습목표 817개)와 검증기, 그리고 검토 후보인 첫 장(Attention 과 Transformer).
 
 문서는 대부분 한국어입니다. local-ai-textbook 밖의 저장소에는 영어 README 가 있습니다.
-
-ORCID: https://orcid.org/0009-0006-9062-8353
